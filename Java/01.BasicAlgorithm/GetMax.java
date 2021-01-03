@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+class GetMax {
     public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
         int[] numArray = new int[4];
@@ -14,25 +14,9 @@ class Main {
     }
     
     static int max4(int a, int b, int c, int d){
-        int maxValue = 0;
-        maxValue = a;
+        int maxValue = a;
         
-        if (a >= maxValue){
-            if (b >= a){
-                if (c >= b){
-                    if (d >= c){
-                        maxValue = d;
-                    }
-                    else {
-                        maxValue = c;
-                    }
-                }
-                else {
-                    maxValue = b;
-                }
-            }
-        }
-        else if (b >= maxValue){
+        if (b >= maxValue){
             if (c >= b){
                 if (d >= c){
                     maxValue = d;
@@ -41,10 +25,19 @@ class Main {
                     maxValue = c;
                 }
             }
+            else if(d >= b) {
+                maxValue = d;
+            }
+            else {
+                maxValue = b;
+            }
         }
         else if (c >= maxValue){
             if (d >= c){
                 maxValue = d;
+            }
+            else {
+                maxValue = c;
             }
         }
         else {
