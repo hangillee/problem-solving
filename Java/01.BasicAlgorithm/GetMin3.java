@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+class GetMin3 {
     public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
         int[] numArray = new int[3];
