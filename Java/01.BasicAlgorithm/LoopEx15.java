@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+class LoopEx15 {
 	public static void main(String args[]){
 		Scanner scan = new Scanner(System.in);
 		int length = scan.nextInt();
