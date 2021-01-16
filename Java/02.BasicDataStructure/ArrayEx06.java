@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+class ArrayEx06 {
 	public static void main(String args[]){
 		Scanner scan = new Scanner(System.in);
 		int targetNumber;
