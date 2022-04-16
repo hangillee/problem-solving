@@ -1,7 +1,8 @@
+import java.lang.reflect.Array;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class BOJ {
+public class BOJ1271 {
     public static void main(String[] args){
         Scanner numScan = new Scanner(System.in);
         BigInteger m = numScan.nextBigInteger();
