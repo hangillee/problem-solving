@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class BOJ1010 {
     private static int[][] memo = new int[30][30];
-    public static void main(String args[]){
+    public static void main(String[] args){
         Scanner numScan = new Scanner(System.in);
         int testCase = numScan.nextInt();
         int a, b = 0;

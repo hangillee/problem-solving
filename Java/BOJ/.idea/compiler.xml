@@ -4,6 +4,9 @@
     <excludeFromCompile>
       <file url="file://$PROJECT_DIR$/src/BOJ1271.java" />
       <file url="file://$PROJECT_DIR$/src/BOJ1010.java" />
+      <file url="file://$PROJECT_DIR$/src/BOJ1550.java" />
+      <file url="file://$PROJECT_DIR$/src/BOJ2338.java" />
+      <file url="file://$PROJECT_DIR$/src/BOJ2475.java" />
     </excludeFromCompile>
   </component>
 </project>
