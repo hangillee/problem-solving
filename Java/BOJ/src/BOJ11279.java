@@ -7,6 +7,7 @@ public class BOJ11279 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
+
         int N = Integer.parseInt(br.readLine());
         for(int i = 0; i < N; i++) {
             int command = Integer.parseInt(br.readLine());
