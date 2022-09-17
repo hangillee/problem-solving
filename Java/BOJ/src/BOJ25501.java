@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class BOJ16430 {
+public class BOJ25501 {
     static char[] targetStrArr;
     static int recursiveCount;
     public static void main(String[] args) throws IOException {
