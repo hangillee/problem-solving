@@ -7,6 +7,7 @@ public class NumericString {
     }
 }
 
+// Bad Solution
 class NumericStringSolution {
     public boolean solution(String s) {
         try {
