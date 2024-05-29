@@ -1,0 +1,18 @@
+
+˜	java:S127'"XRefactor the code in order to not assign to this loop counter from within the loop body.(äÈöøıÿÿÿÿJ$0b62bfcb-5f14-4aac-9a86-66f784ceb2dc
+p
+java:S1066F"/Merge this if statement with the enclosing one.(ì‘Û€ûÿÿÿÿJ$77b2bffd-8733-458a-8356-4a828818ba10
+Š
+java:S1104Q"OMake row a static final constant or non-public and provide accessors if needed.(„…³J$ba762157-8fdb-42d2-99cb-c0f765b29f93
+‹
+java:S1104R"OMake col a static final constant or non-public and provide accessors if needed.(ûŸ»…J$1ce9dde4-0431-440f-bc0c-605d71d97e97
+V
+java:S1220""Move this file to a named package.J$bab477a3-5c56-4c6d-9116-6077e1764ddd
+ˆ
+java:S3008
+"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹šíJ$f4cdde93-cb99-4025-b873-ee84353f35f6
+
+java:S3008"LRename this field "M" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê˜Õ‰øÿÿÿÿJ$ac9641f1-6cd6-40c7-9513-94118c287b9f
+ˆ	java:S1005"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô³¦ZJ$6c0b3496-1db4-44ce-b4c4-b4a24c634f7f
+
+java:S37765"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ô³¦ZJ$5d5a49a6-ad8b-4f79-a23a-f9ec8464a202

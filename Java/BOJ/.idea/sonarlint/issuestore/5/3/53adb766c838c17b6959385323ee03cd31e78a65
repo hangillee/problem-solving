@@ -1,0 +1,16 @@
+
+€
+java:S13190"eThe type of "graph" should be an interface such as "List" rather than the implementation "ArrayList".(ñê–‰ùÿÿÿÿ
+€
+java:S1319O"eThe type of "graph" should be an interface such as "List" rather than the implementation "ArrayList".(äÊÎ…ÿÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰â­
+e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á–ğ'
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õä“ˆ
+k	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñê–‰ùÿÿÿÿ
+k	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÊÎ…ÿÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+P
+java:S1118/":Add a private constructor to hide the implicit public one.(ßŸ’
+P
+java:S1118N":Add a private constructor to hide the implicit public one.(€¥±š
