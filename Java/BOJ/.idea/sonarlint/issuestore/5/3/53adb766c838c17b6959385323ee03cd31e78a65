@@ -1,16 +1,14 @@
 
-€
-java:S13190"eThe type of "graph" should be an interface such as "List" rather than the implementation "ArrayList".(ñê–‰ùÿÿÿÿ
-€
-java:S1319O"eThe type of "graph" should be an interface such as "List" rather than the implementation "ArrayList".(äÊÎ…ÿÿÿÿÿ
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰â­
-e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á–ğ'
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õä“ˆ
-k	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñê–‰ùÿÿÿÿ
-k	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÊÎ…ÿÿÿÿÿ
-0
-java:S1220""Move this file to a named package.
-P
-java:S1118/":Add a private constructor to hide the implicit public one.(ßŸ’
-P
-java:S1118N":Add a private constructor to hide the implicit public one.(€¥±š
+¦
+java:S13190"eThe type of "graph" should be an interface such as "List" rather than the implementation "ArrayList".(ñê–‰ùÿÿÿÿJ$6b10b34c-db68-4b17-83f8-c11523b22c42
+¦
+java:S1319O"eThe type of "graph" should be an interface such as "List" rather than the implementation "ArrayList".(äÊÎ…ÿÿÿÿÿJ$c712f6be-7a60-42b5-a04c-4f7f75e3ead1
+Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰â­J$38b44836-e916-4282-bfbc-a6e279068641
+‹	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á–ğ'J$cb2c6bf0-fdd5-4860-8940-b392fa99908a
+Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õä“ˆJ$332e9b0b-5b0d-4337-9226-1fdb3fc1aa6f
+‘	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñê–‰ùÿÿÿÿJ$e3d84b05-d3b9-4608-873f-0310286482ad
+‘	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÊÎ…ÿÿÿÿÿJ$fcd03a5e-ff4f-4457-8826-2bda12792078
+v
+java:S1118/":Add a private constructor to hide the implicit public one.(ßŸ’J$30f8df43-e585-4dfa-a356-fe6daf5f1db6
+v
+java:S1118N":Add a private constructor to hide the implicit public one.(€¥±šJ$002c208c-0c1f-447b-90a9-8a12e4a82724

@@ -25,3 +25,14 @@ A
 src/BOJ2444.java,6/1/612eb16fc3a14c3568bdebcd6ba59fb8a976c1d1
 A
 src/BOJ10866.java,e/6/e6630a4cc3670a0c3439aba39a8da6530dfac905
+@
+src/BOJ1773.java,d/c/dcd1b0e249fd6a81f35b01480d26f65a1f296b59
+@
+src/BOJ1780.java,c/4/c454d77b4fa6e73a634e11673194524778de2d2d
+@
+src/BOJ1764.java,e/a/ea674f25d3274db6d883121b9c60de792c4b4b5d
+@
+src/BOJ1712.java,7/9/791c09602d91297e7678080606274f39fc9ceba7
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

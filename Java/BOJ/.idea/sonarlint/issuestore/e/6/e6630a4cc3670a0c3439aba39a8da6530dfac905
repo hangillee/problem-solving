@@ -1,23 +1,21 @@
 
-f	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ì£‹
-f	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éĞ‡¦
-f	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ê²¨
-/
-java:S17002"Rename field "deque"(‡´›‚øÿÿÿÿ
-0
-java:S1220""Move this file to a named package.
-h
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(œû¿Ø
-c	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éĞ‡¦
-L
-java:S26968"6Make the enclosing method "static" or remove this set.(°«’ì
-c	java:S100:"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ê²¨
-L
-java:S2696<"6Make the enclosing method "static" or remove this set.(°«’ì
-c	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É¿ß
-Q
-java:S2696E"6Make the enclosing method "static" or remove this set.(í’¨úüÿÿÿÿ
-h	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÜö´şÿÿÿÿ
-Q
-java:S2696N"6Make the enclosing method "static" or remove this set.(í’¨úüÿÿÿÿ
+Œ	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ì£‹J$c87dcdd2-3675-4085-85a8-dc87213ba00c
+Œ	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éĞ‡¦J$ce8b2f75-4fcd-4c9a-b5ce-194453bc3601
+Œ	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ê²¨J$6c162ed0-4f8d-44fe-8af4-8e39859769d1
+U
+java:S17002"Rename field "deque"(‡´›‚øÿÿÿÿJ$852e6852-62ee-43ef-8935-48c1385a14c7
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(œû¿ØJ$0a505a1a-13ba-48f5-a01f-d0fadfcdb3f8
+‰	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éĞ‡¦J$c86b66e2-ef61-4bdb-a420-b82964c0b344
+r
+java:S26968"6Make the enclosing method "static" or remove this set.(°«’ìJ$aae7bc0e-00ee-4c65-a033-1aa43dec32b0
+‰	java:S100:"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ê²¨J$9e419e26-9408-4d4b-841d-880b06b3fc6f
+r
+java:S2696<"6Make the enclosing method "static" or remove this set.(°«’ìJ$764a4673-c191-4bf5-a251-734129916af8
+‰	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É¿ßJ$8028206b-2ce3-48f4-8163-d26c74239e28
+w
+java:S2696E"6Make the enclosing method "static" or remove this set.(í’¨úüÿÿÿÿJ$7e61647f-7771-4ee9-9715-6686fbe4854b
+	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÜö´şÿÿÿÿJ$be95df8e-dfea-48b4-9f0f-f5594b96884b
+w
+java:S2696N"6Make the enclosing method "static" or remove this set.(í’¨úüÿÿÿÿJ$d1097ca7-17bc-4630-a355-848aa98f898e
