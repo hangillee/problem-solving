@@ -5,9 +5,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 import java.util.StringTokenizer;
 
@@ -32,7 +30,7 @@ public class Main {
     }
 
     static int getLength(final int[] fruits) {
-        Map<Integer, Integer> selectedFruits = new HashMap<>();
+        int[] selectedFruits = new int[10];
         Set<Integer> selectedFruitsCount = new HashSet<>();
         int front = 0;
         int rear = 0;
@@ -40,17 +38,16 @@ public class Main {
         int maxLength = 0;
 
         while (rear < fruits.length) {
-            selectedFruits.put(fruits[rear], selectedFruits.getOrDefault(fruits[rear], 0) + 1);
+            selectedFruits[fruits[rear]] += 1;
             selectedFruitsCount.add(fruits[rear]);
             rear++;
             length++;
 
             if (selectedFruitsCount.size() > 2) {
                 while (selectedFruitsCount.size() > 2) {
-                    selectedFruits.put(fruits[front], selectedFruits.get(fruits[front]) - 1);
-                    if (selectedFruits.get(fruits[front]) == 0) {
+                    selectedFruits[fruits[front]] -= 1;
+                    if (selectedFruits[fruits[front]] == 0) {
                         selectedFruitsCount.remove(fruits[front]);
-                        selectedFruits.remove(fruits[front]);
                     }
                     front++;
                     length--;
