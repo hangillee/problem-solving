@@ -11,7 +11,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
-import org.jetbrains.annotations.NotNull;
 
 public class Main {
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -34,7 +33,7 @@ public class Main {
         int row = 3;
         int col = 3;
         int result = -1;
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i <= 100; i++) {
             if (A[r-1][c-1] == k) { // 주어진 r, c 인덱스는 1부터 시작하므로 배열 인덱스에 맞춰 -1
                 result = i;
                 break;
@@ -130,7 +129,7 @@ public class Main {
         }
 
         @Override
-        public int compareTo(@NotNull Number o) {
+        public int compareTo(Number o) {
             if (this.count == o.count) { // 두 수의 등장 횟수가 같으면
                 return this.value - o.value; // 수의 대소 비교
             }
