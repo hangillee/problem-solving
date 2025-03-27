@@ -18,7 +18,7 @@ class StockPriceSolution {
 
         for (int i = 0; i < prices.length; i++) {
             while (!bull.isEmpty() && prices[i] < prices[bull.peek()]) {
-                answer[bull.peek()] = 1;
+                answer[bull.peek()] = i - bull.peek();
                 bull.pop();
             }
             bull.push(i);
