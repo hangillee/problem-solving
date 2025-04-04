@@ -5,8 +5,6 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Main {
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -14,20 +12,25 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         String target = br.readLine();
-        String explosive = "(" + br.readLine() + ")";
-        Pattern pattern = Pattern.compile(explosive);
+        String explosive = br.readLine();
+        StringBuilder result = new StringBuilder();
 
-        while (!target.isBlank()) {
-            target = target.replaceAll(explosive, "");
-            Matcher matcher = pattern.matcher(target);
-            if (!matcher.find()) {
-                break;
+        for (int i = 0; i < target.length(); i++) {
+            result.append(target.charAt(i));
+            if (result.length() >= explosive.length()) {
+                if (target.charAt(i) == explosive.charAt(explosive.length() - 1)) {
+                    int explosiveStartIndex = result.length() - explosive.length();
+                    if (result.substring(explosiveStartIndex).equals(explosive)) {
+                        result.delete(explosiveStartIndex, result.length());
+                    }
+                }
             }
         }
-        if (target.isBlank()) {
+
+        if (result.isEmpty()) {
             bw.write("FRULA");
         } else {
-            bw.write(target);
+            bw.write(result.toString());
         }
         bw.flush();
         bw.close();
