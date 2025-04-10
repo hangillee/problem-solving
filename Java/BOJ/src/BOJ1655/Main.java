@@ -17,27 +17,27 @@ public class Main {
         int N = Integer.parseInt(br.readLine());
 
         PriorityQueue<Integer> queue = new PriorityQueue<>();
+        List<Integer> temp = new LinkedList<>();
         for (int i = 0; i < N; i++) {
             queue.add(Integer.parseInt(br.readLine()));
 
-            List<Integer> temp = new LinkedList<>();
             if (queue.size() == 1) {
                 bw.write(queue.peek() + "\n");
                 continue;
             }
+            int currentSize = queue.size();
             if (queue.size() % 2 == 0) {
-                int currentSize = queue.size();
                 for (int j = 0; j < currentSize / 2 - 1; j++) {
                     temp.add(queue.poll());
                 }
             } else {
-                int currentSize = queue.size();
                 for (int j = 0; j < currentSize / 2; j++) {
                     temp.add(queue.poll());
                 }
             }
             bw.write(queue.peek() + "\n");
             queue.addAll(temp);
+            temp.clear();
         }
 
         bw.flush();
