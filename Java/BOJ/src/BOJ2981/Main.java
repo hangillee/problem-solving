@@ -27,7 +27,7 @@ public class Main {
             gcd = gcd(gcd, diff[i]);
         }
 
-        for (int i = 2; i * i <= gcd; i++) {
+        for (int i = 2; i < gcd; i++) {
             if (gcd % i == 0) {
                 bw.write(i + " ");
             }
